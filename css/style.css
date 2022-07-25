@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+header{
+    background-color: white;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+
+.main_logo {
+    background-image: url("img/logo.svg");
+}
+
+
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-tittle{
+    font-family: 'Sansita';
+    color: white;
+    font-size: 25px;
+}
+.card{
+    border: none;
+}
+
+@media (max-width:575px) {
+    header{
+        height: 80px;
+    }
+}
+@media (min-width:580px) {
+    .tk_main_body {
+        padding-top: 5%;
+    }
+}

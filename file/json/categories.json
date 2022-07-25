@@ -1,0 +1,19 @@
+{
+    "categories":[
+        {
+            "name":"Turismo",
+            "icon":"img/main_categories/airplane.png",
+            "background":"https://www.limatourperu.com/wp-content/uploads/city-tour-lima-el-balcon-libertador-jose-san-martin-huaura.jpg"
+        },
+        {
+            "name":"Gastronomia",
+            "icon":"img/main_categories/silverware.png",
+            "background":"https://www.limatourperu.com/wp-content/uploads/city-tour-lima-el-balcon-libertador-jose-san-martin-huaura.jpg"
+        },
+        {
+            "name":"Entretenimiento",
+            "icon":"img/main_categories/movie.png",
+            "background":"https://www.limatourperu.com/wp-content/uploads/city-tour-lima-el-balcon-libertador-jose-san-martin-huaura.jpg"
+        }
+    ]
+}
