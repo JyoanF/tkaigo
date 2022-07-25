@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turismo",
+        "icon": "img/main_categories/airplane.svg",
+        "background": "img/main_categories/bg_turismo.png"
+    },
+    {
+        "name": "Gastronomia",
+        "icon": "img/main_categories/food.svg",
+        "background": "img/main_categories/bg_gastronomia.png"
+    },
+    {
+        "name": "Entretenimiento",
+        "icon": "img/main_categories/movie.svg",
+        "background": "img/main_categories/bg_entretenimiento.png"
+    }
+]
