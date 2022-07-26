@@ -10,12 +10,20 @@
     <title>T'kaiGo</title>
     <link href="bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    
-
+    <link rel="stylesheet" href="css/laoder.css">
 </head>
 
-<body>
-    <header>
+<body class="hidden">
+    <div class="loader" id="onload">
+        <div>
+            <img src="img/loader/icono.png" id="imgloader">
+        </div>
+    </div>
+    <div class="loader2 text-center">
+        <span id="textloader">De la mano con: </span><br>
+        <img src="img/loader/mdh.png" id="imgloader2">
+    </div>
+    <header class="escondido">
         <div class="container">
             <div class="row" style="padding-top: 30px; padding-bottom: 10px;">
                 <div class="tk_header_menu col">
@@ -89,7 +97,7 @@ c-75 0 -108 50 -63 95 24 24 29 25 166 25 137 0 142 -1 166 -25z m207 -7 c13
             </div>
         </div>
     </header>
-    <main class="tk_main_body text-center">
+    <main class="tk_main_body text-center escondido">
         <h4 class="tk_main_body_header">¿Qué haré hoy?</h4>
         <div class="tk_main_categories">
             <div class="tk_main_cards" id="contenedor-categorias">
@@ -97,7 +105,9 @@ c-75 0 -108 50 -63 95 24 24 29 25 166 25 137 0 142 -1 166 -25z m207 -7 c13
         </div>
     </main>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"> </script> 
+    
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/category.js"></script>
+    <script src="js/loader.js"></script>
 </body>
 </html>

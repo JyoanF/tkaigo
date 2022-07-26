@@ -1,0 +1,27 @@
+.hidden{
+    overflow: hidden;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    height: 75vh;
+}
+.loader2{
+    background-color: white;
+    height: 25vh;
+}
+.escondido{
+    display: none;
+}
+
+#imgloader{
+    height: 25vh;
+}
+
+#imgloader2{
+    margin-top: 10px;
+    height: 6vh;
+}
