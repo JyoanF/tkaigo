@@ -1,0 +1,14 @@
+[
+    {
+        "nombre":"Balcon de Huaura",
+        "backgroudn":"img/turismo/balcon.jpg"
+    },
+    {
+        "nombre":"Plaza de armas",
+        "backgroudn":"img/turismo/plaza.jpg"
+    },
+    {
+        "nombre":"Playa centinela",
+        "backgroudn":"img/turismo/plaza.jpg"
+    }
+]
